@@ -1,162 +1,142 @@
-# Internal Documentation – MyFarm Attendance Tracker
+# Attendance Tracker – Documentation
 
-## Project Name:
-**MyFarm Attendance Tracker**
+![Version](https://img.shields.io/badge/Version-1.0-blue) ![License](https://img.shields.io/badge/License-MIT-green) ![Python](https://img.shields.io/badge/Python-3.8%252B-blue) ![Flask](https://img.shields.io/badge/Flask-2.0%252B-lightgrey)
 
-## Developed by:
-**Musa Jawo**  
-August 2025  
-Internal Project for MyFarm
+A modern web-based attendance management system designed for organizations, schools, and training centers. Ensure accurate attendance recording, prevent fraudulent sign-ins, and simplify reporting.
 
----
+## 📖 Table of Contents
+- [Introduction](#introduction)
+- [✨ Key Features](#-key-features)
+- [🏗️ System Overview](#-system-overview)
+- [🚀 Getting Started](#-getting-started)
+  - [Signing Up](#signing-up)
+  - [Logging In](#logging-in)
+- [📊 Using the System](#-using-the-system)
+  - [Marking Attendance](#marking-attendance)
+  - [Viewing Reports](#viewing-reports)
+  - [Admin Dashboard](#admin-dashboard)
+- [👥 Managing Users](#-managing-users)
+- [🔔 Notifications](#-notifications)
+- [🔒 Security & Privacy](#-security--privacy)
+- [❓ Troubleshooting](#-troubleshooting)
+- [📞 Contact & Support](#-contact--support)
 
-## Overview
-The **MyFarm Attendance Tracker** is a digital system built to simplify and secure attendance tracking for **MyFarm’s interns, students, and staff**. It replaces manual methods and prevents cheating by requiring a **webcam snapshot** with every sign-in/out.
+## 📝 Introduction
+Attendance Tracker helps organizations streamline attendance management with real-time tracking, detailed reporting, and secure user authentication. Reduce administrative overhead and improve accountability with our easy-to-use platform.
 
----
+With Attendance Tracker, you can:
+- Track employee or student attendance in real-time
+- Generate detailed reports and export data
+- Securely manage user profiles and permissions
+- Receive notifications for missing sign-ins or anomalies
 
-## Objective
-- Prevent impersonation during attendance
-- Improve accountability and data tracking
-- Allow real-time access to attendance records by both users and admins
-
----
-
-## Access Roles
-
-### General Users (Staff, Interns, Students)
-- Register and log in with username + password
-- Sign in/out with **webcam snapshot**
-- View personal attendance records
-- View personal history records
-
-
-### Admins
-- Separate admin interface
-- View all attendance logs with filters
-- Reset user passwords
-- Export full attendance logs
-- Export all data as CSV
-- Future features: add users manually, receive notifications
-
----
-
-## Technologies Used
-
-| Layer        | Tool                                |
-|--------------|-------------------------------------|
-| Backend      | Flask (Python)                      |
-| Frontend     | HTML, CSS, Bootstrap JavaScript     |
-| Camera       | Browser (WebcamJS)                  |
-| Database     | SQLite                              |
-| Storage      | Local server (images)               |
-| Deployment   | Render                              |
-| Compatibility| Works on all browsers               |
-
----
-
-## Mobile Friendly
-Yes – fully responsive and usable across mobile phones and tablets.
-
----
-
-## System Workflow
-
-1. **User Registration**
-   - Users self-register with name + email + phone + ID + password
-   - Admin resets passwords if needed
-
-2. **Sign In / Out**
-   - User logs in
-   - Clicks **Sign In** or **Sign Out**
-   - Webcam activates and captures image
-   - Timestamp and image are stored in the database
-
-3. **Admin Interface**
-   - Admin logs in via separate admin route
-   - Admin can view all records, filter, reset passwords, export data
-
----
-
-## Installation (Development Setup)
-
-```bash
-git clone [PRIVATE_REPO_URL]
-cd attendance-tracker
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python main.py
-```
-
----
-
-## Deployment Details
-
-- Live Link: [https://attendace-tracker-v0-1.onrender.com/](https://attendace-tracker-v0-1.onrender.com/)
-- Host: Render.com
-- Python version: 3.10+
-- Start command (on Render):  
-  ```bash
-  gunicorn main:app
-  ```
-
----
-
-## File Structure (Important Files)
-
-```
-/static/         → CSS, JS, camera script
-/templates/      → HTML pages
-/uploads/        → Saved webcam images (per user)
-main.py           → Main Flask logic
-auth.py          → Registration/login/reset logic
-admin.py         → Admin routes & views
-models.py        → SQLite database models
-utils.py         → Time/image handling
-requirements.txt → Project dependencies
-```
-
----
-
-## Data Export
-- Users and Admins can export attendance logs as `.csv` files
-
----
-
-## Security & Privacy
-- Users must grant camera access to use the app
-- All image and attendance data is private and stored locally
-- Only admins can access global logs and reset passwords
-
----
-
-## Planned Features
-
+## ✨ Key Features
 | Feature | Description |
-|--------|-------------|
-| ✅ Password reset by users | Let users reset forgotten passwords securely |
-| ✅ Admin user creation | Allow admin to manually create user accounts |
-| 🔔 Missed sign-out alerts | Notify users/admins when a user forgets to sign out after work hours |
-| 🤖 Assistant bot | Guide users with chatbot or FAQ popup |
-| ☁️ Cloud image storage | Move snapshots to cloud (e.g., Cloudinary) for scalability |
-| 📱 Progressive Web App (PWA) | Make it installable like a native mobile app |
+|---------|-------------|
+| Self-Sign-In | Users can mark their own attendance quickly and easily |
+| Admin Dashboard | Comprehensive interface to view, edit, and export records |
+| Real-Time Reports | Daily, weekly, and monthly attendance summaries |
+| Email Notifications | Alerts for missed check-ins and unusual activity |
+| Photo Verification | Optional webcam capture to confirm identity |
+| Secure Authentication | Role-based access control and encrypted passwords |
+| CSV Export | Download attendance logs for offline analysis |
+
+## 🏗️ System Overview
+**Diagram:**
+```mermaid
+graph TD
+    A[User Interface] --> B[Flask Backend];
+    B --> C[SQLite Database];
+    B --> D[Email Service];
+    C --> E[User Data];
+    C --> F[Attendance Records];
+```
+
+- **Frontend:** Responsive web app compatible with desktop, tablet, and mobile devices
+- **Backend:** Flask application handling authentication, database operations, and notifications
+- **Database:** SQLite for storing users, attendance logs, and system settings
+- **Notifications:** Automated email alerts for events and reminders
+
+## 🚀 Getting Started
+### Signing Up
+1. Navigate to the Sign Up or Free Trial page
+2. Fill in your details:
+   - First name
+   - Last name
+   - Email (valid work email required)
+   - Company name
+   - Company size
+3. Submit the form and check your email for confirmation
+
+### Logging In
+1. Visit the login page
+2. Enter your registered email and password
+3. Click **Sign In** to access your dashboard
+
+💡 **Tip:** Use the Forgot Password link if you need to reset your credentials
+
+## 📊 Using the System
+### Marking Attendance
+1. Log in to your account
+2. Navigate to the Attendance section
+3. Click **Sign In** or **Sign Out** as needed
+4. Complete photo verification if prompted
+
+### Viewing Reports
+For Administrators:
+1. Access the Reports section from the dashboard
+2. Select a date range and apply filters (user, department, etc.)
+3. View summarized data or export as CSV
+
+### Admin Dashboard
+The admin dashboard provides:
+- **User Management:** Add, edit, or remove users and assign roles
+- **Attendance Logs:** Review all recorded entries
+- **Notification Center:** View system alerts and missed sign-ins
+- **Settings:** Configure system preferences and email templates
+
+## 👥 Managing Users
+**Admins can:**
+- Create new users with assigned roles (user/admin)
+- Reset passwords for existing users
+- Deactivate or remove user accounts
+
+**Users can:**
+- Update their personal profile information
+- Change their password from the dashboard
+
+## 🔔 Notifications
+The system sends automated emails for:
+- Free trial confirmations and subscription updates
+- Missed sign-in alerts
+- Unusual activity notifications
+- Administrative alerts
+
+All emails include professional branding and signature from the Attendance Tracker team.
+
+## 🔒 Security & Privacy
+- **Password Hashing:** All passwords are encrypted and never stored in plain text
+- **Role-Based Access Control:** Sensitive actions restricted to admin users only
+- **Photo Verification:** Optional identity confirmation to prevent fraud
+- **Data Protection:** User information is stored securely and never shared without consent
+
+## ❓ Troubleshooting
+| Issue | Solution |
+|-------|---------|
+| Can't sign in | Verify your email/password or use Forgot Password |
+| Email not received | Check spam folder or email filtering rules |
+| Photo capture failed | Ensure browser has camera permissions enabled |
+
+For additional support, visit our Support page or contact us directly.
+
+## 📞 Contact & Support
+- **Email:** musbi90@gmail.com
+- **Website:** [https://attendance-tracker.com](https://attendancetracker-v00.onrender.com)
+- **Phone:** +220 2506796
+
+We typically respond to all inquiries within 24 hours.
 
 ---
 
-## Audience & Usage
-This system is actively used by:
-- **MyFarm CEO**
-- **Staff**
-- **Interns**
-- **Students**
+© 2025 Attendance Tracker. All rights reserved.
 
-All users are expected to sign in/out daily through the system.
-
----
-
-## Notes for CEO & Team
-- The system is live and stable
-- All sign-ins are verified with images
-- Logs can be exported or viewed by date, user, or role
-- Backups of the SQLite database and image folder should be done weekly
