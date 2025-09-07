@@ -131,7 +131,7 @@ For additional support, visit our Support page or contact us directly.
 
 ## 📞 Contact & Support
 - **Email:** musbi90@gmail.com
-- **Website:** [https://attendance-tracker.com](https://attendancetracker-v00.onrender.com)
+- **Website:** [https://attendance-tracker.com](https://attendances-system-official.onrender.com)
 - **Phone:** +220 2506796
 
 We typically respond to all inquiries within 24 hours.
