@@ -1,6 +1,6 @@
 # 📝 Attendance Tracker Official Docs Repository
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License: Docs](https://img.shields.io/badge/License-Docs-yellow.svg)
 ![Repo: Official](https://img.shields.io/badge/Repo-Official-blue)
 
 This repository is the **official source** for all Attendance Tracker documentation and related files, including:
@@ -15,29 +15,25 @@ All files are maintained and updated by the Attendance Tracker team to ensure ac
 For questions or permissions regarding this repository, contact:  
 - **Email:** info.attendancetracker@gmail.com  
 - **Instagram:** [https://www.instagram.com/attendancet/](https://www.instagram.com/attendancet/)  
-- **LinkedIn:** [https://www.linkedin.com/company/attendance-tracker](https://www.linkedin.com/company/attendance-tracker)
+- **LinkedIn:** [https://www.linkedin.com/company/attendance-tracker](https://www.linkedin.com/company/attendance-tracker)  
 - **Website:** [https://attendance-tracker.com](https://attendances-system-official.onrender.com)
 
 ---
 
-# MIT License
+# Documentation License
 
 Copyright (c) 2025 Musbi
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted to **view, reference, and link to** the documentation in this repository for **personal, educational, or professional purposes**, provided proper attribution is given.  
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+You **may not**:  
+- Reproduce or redistribute content for commercial purposes without explicit permission.  
+- Modify, claim, or publish the documentation as your own.  
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+All documentation is provided **“as is”**, without warranty of any kind. Attendance Tracker is not liable for any damages arising from the use of this documentation.
+
+## Attribution
+
+When referencing or linking to the documentation, please include:  
+
+> “Official Attendance Tracker Documentation — [https://github.com/yourusername/attendance-tracker-docs](#)”
