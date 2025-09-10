@@ -130,9 +130,13 @@ All emails include professional branding and signature from the Attendance Track
 For additional support, visit our Support page or contact us directly.
 
 ## 📞 Contact & Support
-- **Email:** musbi90@gmail.com
+- **Email:** info.attendancetracker@gmail.com
 - **Website:** [https://attendance-tracker.com](https://attendances-system-official.onrender.com)
-- **Phone:** +220 2506796
+- **Phone:** +220 4010971
+- Instagram: [https://www.instagram.com/attendancet/](https://www.instagram.com/attendancet/)  
+- LinkedIn: [https://www.linkedin.com/company/attendance-tracker](https://www.linkedin.com/company/attendance-tracker)  
+- X (Twitter): [https://x.com/AttendanceT](https://x.com/AttendanceT)  
+- Facebook: [https://www.facebook.com/AttendanceT/](https://www.facebook.com/AttendanceT/)
 
 We typically respond to all inquiries within 24 hours.
 
