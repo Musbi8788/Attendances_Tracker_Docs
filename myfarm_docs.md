@@ -4,7 +4,7 @@
 **MyFarm Attendance Tracker**
 
 ## Developed by:
-**Musa Jawo**  
+**Musbi Jawo**  
 August 2025  
 Internal Project for MyFarm
 
