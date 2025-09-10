@@ -22,7 +22,7 @@ For questions or permissions regarding this repository, contact:
 
 # Documentation License
 
-Copyright (c) 2025 Musbi
+Copyright (c) 2025 Attendance Tracker Team
 
 Permission is hereby granted to **view, reference, and link to** the documentation in this repository for **personal, educational, or professional purposes**, provided proper attribution is given.  
 
