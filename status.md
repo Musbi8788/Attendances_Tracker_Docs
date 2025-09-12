@@ -18,9 +18,11 @@ The Attendance Tracker is running smoothly. Users can sign in and sign out witho
 - No known issues at this time. If you encounter any problems, please contact support via our social media or email.
 
 ## Contact & Support
+
+- **Email:** info.attendancetracker@gmail.com
 - **Website:** [https://attendance-tracker.com](https://attendances-system-official.onrender.com)
-- Instagram: [https://www.instagram.com/attendancet/](https://www.instagram.com/attendancet/)  
-- LinkedIn: [https://www.linkedin.com/company/attendance-tracker](https://www.linkedin.com/company/attendance-tracker)  
-- X (Twitter): [https://x.com/AttendanceT](https://x.com/AttendanceT)  
-- Facebook: [https://www.facebook.com/AttendanceT/](https://www.facebook.com/AttendanceT/)  
-- Email: info.attendancetracker@gmail.com
+- **Phone:** +220 4010971
+- Instagram: [https://www.instagram.com/attendancegm/](https://www.instagram.com/attendancegm/)  
+- LinkedIn: [https://www.linkedin.com/company/attendancegm](https://www.linkedin.com/company/attendancegm)  
+- X (Twitter): [https://x.com/attendancegm](https://x.com/attendancegm)  
+- Facebook: [https://www.facebook.com/attendancegm/](https://www.facebook.com/Attendancegm/)
