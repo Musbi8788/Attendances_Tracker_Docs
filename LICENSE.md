@@ -15,7 +15,7 @@ All files are maintained and updated by the Attendance Tracker team to ensure ac
 For questions or permissions regarding this repository, contact:  
 
 - **Email:** info@attendancegm.com
-- **Website:** [https://attendance-tracker.com](https://attendances-system-official.onrender.com)
+- **Website:** [https://attendance-tracker.com](https://www.attendancegm.com/)
 - **Phone:** +220 4010971
 - Instagram: [https://www.instagram.com/attendancegm/](https://www.instagram.com/attendancegm/)  
 - LinkedIn: [https://www.linkedin.com/company/attendancegm](https://www.linkedin.com/company/attendancegm)  
