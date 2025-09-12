@@ -23,7 +23,7 @@ Attendance Tracker provides a secure digital platform for managing attendance re
 You are responsible for maintaining the confidentiality of your account credentials. Attendance Tracker is not liable for any unauthorized access resulting from your failure to keep your credentials secure.
 
 ## 5. Privacy and Data
-We collect, store, and process personal data necessary to provide our services. Our [Privacy Policy](#) explains how your data is used and protected. By using our service, you consent to this data handling.
+We collect, store, and process personal data necessary to provide our services. Our [Privacy Policy](https://github.com/Musbi8788/Attendances_Tracker_Docs/blob/main/privacy_policy.md) explains how your data is used and protected. By using our service, you consent to this data handling.
 
 ## 6. Acceptable Use
 Users agree not to:  
