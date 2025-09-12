@@ -132,13 +132,13 @@ For additional support, visit our Support page or contact us directly.
 ## 📞 Contact & Support
 
 - **Email:** info@attendancegm.com
-- **Website:** [https://attendance-tracker.com](https://www.attendancegm.com/)
+- **Website:** [https://attendancegm.com](https://www.attendancegm.com/)
 - **Phone:** +220 4010971
 - Instagram: [https://www.instagram.com/attendancegm/](https://www.instagram.com/attendancegm/)  
 - LinkedIn: [https://www.linkedin.com/company/attendancegm](https://www.linkedin.com/company/attendancegm)  
 - X (Twitter): [https://x.com/attendancegm](https://x.com/attendancegm)  
 - Facebook: [https://www.facebook.com/attendancegm/](https://www.facebook.com/Attendancegm/)
-
+- 
 We typically respond to all inquiries within 24 hours.
 
 ---
