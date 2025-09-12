@@ -46,10 +46,10 @@ These Terms of Service are governed by the laws of The Gambia. Any disputes aris
 ## 11. Contact Us
 If you have any questions regarding these Terms of Service, please contact us:  
 
-- **Email:** info.attendancetracker@gmail.com
-- **Website:** [https://attendance-tracker.com](https://attendances-system-official.onrender.com)
+- **Email:** info@attendancegm.com
+- **Website:** [https://attendancegm.com](https://www.attendancegm.com/)
 - **Phone:** +220 4010971
 - Instagram: [https://www.instagram.com/attendancegm/](https://www.instagram.com/attendancegm/)  
 - LinkedIn: [https://www.linkedin.com/company/attendancegm](https://www.linkedin.com/company/attendancegm)  
 - X (Twitter): [https://x.com/attendancegm](https://x.com/attendancegm)  
-- Facebook: [https://www.facebook.com/attendancegm/](https://www.facebook.com/Attendancegm/) 
+- Facebook: [https://www.facebook.com/attendancegm/](https://www.facebook.com/Attendancegm/)
