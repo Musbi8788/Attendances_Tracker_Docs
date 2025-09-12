@@ -30,7 +30,7 @@ We may update this Cookie Policy from time to time. Any significant changes will
 If you have any questions about our use of cookies or this Cookie Policy, please contact us:  
 
 - **Email:** info@attendancegm.com
-- **Website:** [https://attendance-tracker.com](https://www.attendancegm.com/)
+- **Website:** [https://attendancegm.com](https://www.attendancegm.com/)
 - **Phone:** +220 4010971
 - Instagram: [https://www.instagram.com/attendancegm/](https://www.instagram.com/attendancegm/)  
 - LinkedIn: [https://www.linkedin.com/company/attendancegm](https://www.linkedin.com/company/attendancegm)  
