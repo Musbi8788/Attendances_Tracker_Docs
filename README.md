@@ -131,8 +131,8 @@ For additional support, visit our Support page or contact us directly.
 
 ## 📞 Contact & Support
 
-- **Email:** info.attendancetracker@gmail.com
-- **Website:** [https://attendance-tracker.com](https://attendances-system-official.onrender.com)
+- **Email:** info@attendancegm.com
+- **Website:** [https://attendance-tracker.com](https://www.attendancegm.com/)
 - **Phone:** +220 4010971
 - Instagram: [https://www.instagram.com/attendancegm/](https://www.instagram.com/attendancegm/)  
 - LinkedIn: [https://www.linkedin.com/company/attendancegm](https://www.linkedin.com/company/attendancegm)  
