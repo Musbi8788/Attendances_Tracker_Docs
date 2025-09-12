@@ -56,11 +56,13 @@ We may update this Privacy Policy from time to time. The updated version will be
 ## 10. Contact Us
 For questions or concerns regarding this Privacy Policy, please contact us:
 
-- **Email:** info.attendancetracker@gmail.com
-- **Website:** [https://attendance-tracker.com](https://attendances-system-official.onrender.com)
+- **Email:** info@attendancegm.com
+- **Website:** [https://attendance-tracker.com](https://www.attendancegm.com/)
 - **Phone:** +220 4010971
 - Instagram: [https://www.instagram.com/attendancegm/](https://www.instagram.com/attendancegm/)  
 - LinkedIn: [https://www.linkedin.com/company/attendancegm](https://www.linkedin.com/company/attendancegm)  
+- X (Twitter): [https://x.com/attendancegm](https://x.com/attendancegm)  
+- Facebook: [https://www.facebook.com/attendancegm/](https://www.facebook.com/Attendancegm/)
 - X (Twitter): [https://x.com/attendancegm](https://x.com/attendancegm)  
 - Facebook: [https://www.facebook.com/attendancegm/](https://www.facebook.com/Attendancegm/)
 
