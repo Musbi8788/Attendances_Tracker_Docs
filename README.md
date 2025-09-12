@@ -130,6 +130,7 @@ All emails include professional branding and signature from the Attendance Track
 For additional support, visit our Support page or contact us directly.
 
 ## 📞 Contact & Support
+
 - **Email:** info.attendancetracker@gmail.com
 - **Website:** [https://attendance-tracker.com](https://attendances-system-official.onrender.com)
 - **Phone:** +220 4010971
