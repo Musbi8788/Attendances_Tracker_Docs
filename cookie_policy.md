@@ -29,8 +29,8 @@ We may update this Cookie Policy from time to time. Any significant changes will
 ## 7. Contact Us
 If you have any questions about our use of cookies or this Cookie Policy, please contact us:  
 
-- **Email:** info.attendancetracker@gmail.com
-- **Website:** [https://attendance-tracker.com](https://attendances-system-official.onrender.com)
+- **Email:** info@attendancegm.com
+- **Website:** [https://attendance-tracker.com](https://www.attendancegm.com/)
 - **Phone:** +220 4010971
 - Instagram: [https://www.instagram.com/attendancegm/](https://www.instagram.com/attendancegm/)  
 - LinkedIn: [https://www.linkedin.com/company/attendancegm](https://www.linkedin.com/company/attendancegm)  
