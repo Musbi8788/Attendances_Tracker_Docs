@@ -42,7 +42,7 @@ Users have the right to:
 - Request deletion of personal data, subject to applicable legal or contractual obligations.
 - Opt out of non-essential communications.
 
-To exercise your rights, contact us at **support@attendance-tracker.com**.
+To exercise your rights, contact us at **info.attendancetracker.com**.
 
 ## 7. Cookies and Tracking
 Attendance Tracker may use cookies or similar technologies to enhance user experience, track usage patterns, and improve system performance. You can manage cookies through your browser settings.
@@ -59,10 +59,10 @@ For questions or concerns regarding this Privacy Policy, please contact us:
 - **Email:** info.attendancetracker@gmail.com
 - **Website:** [https://attendance-tracker.com](https://attendances-system-official.onrender.com)
 - **Phone:** +220 4010971
-- Instagram: [https://www.instagram.com/attendancet/](https://www.instagram.com/attendancet/)  
-- LinkedIn: [https://www.linkedin.com/company/attendance-tracker](https://www.linkedin.com/company/attendance-tracker)  
-- X (Twitter): [https://x.com/AttendanceT](https://x.com/AttendanceT)  
-- Facebook: [https://www.facebook.com/AttendanceT/](https://www.facebook.com/AttendanceT/)
+- Instagram: [https://www.instagram.com/attendancegm/](https://www.instagram.com/attendancegm/)  
+- LinkedIn: [https://www.linkedin.com/company/attendancegm](https://www.linkedin.com/company/attendancegm)  
+- X (Twitter): [https://x.com/attendancegm](https://x.com/attendancegm)  
+- Facebook: [https://www.facebook.com/attendancegm/](https://www.facebook.com/Attendancegm/)
 
 ---
 
