@@ -4,6 +4,7 @@
 - [Introduction](#introduction)
 - [Key Features](#key-features)
 - [System Overview](#system-overview)
+- [System Architecture](#system-architecture)
 - [Getting Started](#getting-started)
   - [Signing Up](#signing-up)
   - [Logging In](#logging-in)
@@ -28,6 +29,13 @@ With Attendance Tracker, you can:
 - Securely manage user data
 - Receive notifications for missing sign-ins or anomalies
 
+```mermaid
+graph TD
+    A[User] -->|Track Attendance| B[Attendance Tracker]
+    B -->|Reports| C[Admin]
+    B -->|Notifications| D[System Alerts]
+```
+
 ---
 
 ## Key Features
@@ -39,6 +47,15 @@ With Attendance Tracker, you can:
 - **Secure authentication**: Only registered users can sign in.
 - **CSV Export**: Download attendance logs for offline analysis.
 
+```mermaid
+graph LR
+    A[User] -->|Self Sign-in| B[System]
+    B -->|Reports| C[Admin Dashboard]
+    B -->|Photo Verification| D[Camera]
+    B -->|Export Logs| E[CSV File]
+    B -->|Alerts| F[Notifications]
+```
+
 ---
 
 ## System Overview
@@ -47,6 +64,27 @@ Attendance Tracker consists of the following components:
 - **Backend**: Built with Flask, managing all database interactions, authentication, and email notifications.
 - **Database**: SQLite stores users, attendance logs, and configuration settings.
 - **Notifications**: Email system to send confirmations, reminders, and alerts.
+
+```mermaid
+graph TD
+    UI[User Interface] --> BE[Flask Backend]
+    BE --> DB[(SQLite Database)]
+    BE --> NO[Email Notifications]
+```
+
+---
+
+## System Architecture
+```mermaid
+graph TD
+    A[User Browser] --> B[Web Interface]
+    B --> C[Flask Backend]
+    C --> D[(SQLite Database)]
+    C --> E[Email Service]
+    E --> A
+    F[Admin Panel] --> C
+    C --> F
+```
 
 ---
 
@@ -59,12 +97,27 @@ Attendance Tracker consists of the following components:
 
 > **Note:** Only valid work emails are accepted for sign-ups.
 
+```mermaid
+graph LR
+    U[User] -->|Fill Form| S[Sign Up Page]
+    S -->|Confirm| E[Email Verification]
+    E -->|Access| D[Dashboard]
+```
+
 ### Logging In
 1. Visit the **login page**.
 2. Enter your registered email and password.
 3. Click **Sign In** to access your dashboard.
 
 > **Tip:** Use the **Forgot Password** link if you cannot remember your password.
+
+```mermaid
+graph TD
+    U[User] -->|Login| L[Login Page]
+    L -->|Authenticate| B[Backend]
+    B -->|Success| D[Dashboard]
+    L -->|Forgot Password| R[Reset Link]
+```
 
 ---
 
@@ -76,17 +129,39 @@ Attendance Tracker consists of the following components:
 3. Click **Sign In** or **Sign Out** as appropriate.
 4. If enabled, the system may capture a photo for verification.
 
+```mermaid
+graph LR
+    U[User] -->|Sign In/Out| A[Attendance Page]
+    A -->|Record| DB[(Attendance Log)]
+    A -->|Photo Capture| C[Camera]
+```
+
 ### Attendance Reports
 Admins can view reports by:
 - Selecting a date range
 - Filtering by user or department
 - Exporting data as CSV for external analysis
 
+```mermaid
+graph TD
+    A[Admin] -->|Select Date Range| R[Reports]
+    A -->|Filter Users| R
+    R -->|Export| C[CSV File]
+```
+
 ### Admin Dashboard
 - **User Management**: Add, edit, or remove users.
 - **Attendance Logs**: Review all recorded entries.
 - **Notifications**: Check alerts for missed sign-ins.
 - **Settings**: Configure system preferences, email templates, and roles.
+
+```mermaid
+graph TD
+    D[Admin Dashboard] --> U[User Management]
+    D --> L[Attendance Logs]
+    D --> N[Notifications]
+    D --> S[Settings]
+```
 
 ---
 
@@ -101,6 +176,13 @@ Admins can view reports by:
 - Update their profile information.
 - Change passwords from the dashboard.
 
+```mermaid
+graph LR
+    A[Admin] -->|Create/Reset/Deactivate| U[Users]
+    U -->|Update Profile| P[Profile]
+    U -->|Change Password| PW[Password]
+```
+
 ---
 
 ## Notifications
@@ -112,6 +194,14 @@ Attendance Tracker sends automated emails for:
 
 Emails are professional, branded, and include a clear signature from the Co-founder & CEO, **Musbi Jawo**.
 
+```mermaid
+graph TD
+    S[System] -->|Free Trial| U[User]
+    S -->|Subscription Updates| U
+    S -->|Missed Sign-in Alerts| U
+    S -->|Unusual Activity Alerts| A[Admin]
+```
+
 ---
 
 ## Security & Privacy
@@ -119,6 +209,14 @@ Emails are professional, branded, and include a clear signature from the Co-foun
 - **Role-based access** limits sensitive actions to admins only.
 - **Photo verification** prevents sign-in fraud.
 - **Data privacy**: User information is stored securely and never shared without consent.
+
+```mermaid
+graph TD
+    P[Passwords] -->|Hashed| DB[(Database)]
+    A[Admin Role] -->|Access| S[Sensitive Actions]
+    C[Camera] -->|Verify Identity| L[Attendance Logs]
+    D[User Data] -->|Stored Securely| DB
+```
 
 ---
 
@@ -131,6 +229,15 @@ Emails are professional, branded, and include a clear signature from the Co-foun
 
 For additional support, contact our team via the **Support** page.
 
+```mermaid
+graph TD
+    U[User] -->|Problem| I[Issue]
+    I -->|Check Credentials| S1[Solution 1]
+    I -->|Check Email Provider| S2[Solution 2]
+    I -->|Allow Camera Access| S3[Solution 3]
+    I -->|Need Help| C[Support Team]
+```
+
 ---
 
 ## Contact & Support
@@ -141,3 +248,8 @@ For help, feature requests, or technical support:
 - **Phone**: +220 4010971
 
 You will receive a professional response, usually within 24 hours.
+
+```mermaid
+graph TD
+    U[User] -->|Email/Call| S[Support Team]
+    S -->|Respond in 24h| U
